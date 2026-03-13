@@ -17,11 +17,20 @@
             <p class="hover:text-gray-400 hover:underline hover:cursor-pointer"><a href="Product.html">Products</a></p>
             <p class="hover:text-gray-400 hover:underline hover:cursor-pointer"><a href="Contact.html">Contact</a></p>
         </div>
-        <svg class="w-8 lg:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+        <svg class="w-8 lg:hidden click cursor-pointer" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
             stroke="currentColor" class="size-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
-    </div>
+    </div> 
+    <!-- Side Navbar -->
+     <div>
+        <div class="side flex flex-col lg:hidden gap-5 bg-green-100 w-[50%] h-screen fixed z-20 top-0 items-center right-[-50%]  transition-all duration-1000 ">
+            <p class="hover:text-gray-400 hover:underline hover:cursor-pointer mt-15"><a href="index.html">Home</a></p>
+            <p class="hover:text-gray-400 hover:underline hover:cursor-pointer"><a href="Product.html">Products</a></p>
+            <p class="hover:text-gray-400 hover:underline hover:cursor-pointer"><a href="Contact.html">Contact</a></p>
+            <p class="absolute right-5 mt-3 font-bold cursor-pointer text-2xl X">X</p>
+        </div>
+     </div>
     <!-- Contact Us -->
     <div class="flex flex-col items-center my-10">
         <div class="w-[70%] ">
@@ -52,6 +61,7 @@
             <p>&copy;2021 Greenden.com</p>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 
 </html>
